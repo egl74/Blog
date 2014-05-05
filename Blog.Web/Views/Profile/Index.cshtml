@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Profile";
+}
+@{
+    @model Blog.Web.Controllers.ProfileItem
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Users</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <!--<h1>Users</h1>-->
+    <br />@Html.DisplayFor(modelItem => Model.FirstName)
+    @Html.DisplayFor(modelItem => Model.LastName)
+    <br /> @Html.DisplayFor(modelItem => Model.City)
+</body>
+</html>
+
+<h2>Profile</h2>

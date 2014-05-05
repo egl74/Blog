@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1dc68ca0e2104137a6125775292dcb2a" Name="Diagram1">
+        <EntityTypeShape EntityType="dbForTestSiteModel.City" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbForTestSiteModel.Post" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbForTestSiteModel.sysdiagram" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbForTestSiteModel.Tag" Width="1.5" PointX="7.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbForTestSiteModel.User" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbForTestSiteModel.Comment" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="dbForTestSiteModel.FK_Users_Cities" ManuallyRouted="false" />
+        <AssociationConnector Association="dbForTestSiteModel.FK_Comments_Posts" ManuallyRouted="false" />
+        <AssociationConnector Association="dbForTestSiteModel.FK_Posts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="dbForTestSiteModel.FK_Comments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="dbForTestSiteModel.PostTag" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
